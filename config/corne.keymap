@@ -19,34 +19,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp B  &kp L  &kp D     &kp W  &kp Z        &kp COMMA  &kp F  &kp O       &kp U      &kp J     &none
-&none  &kp N  &kp R  &kp T     &kp S  &kp G        &kp Y      &kp H  &kp A       &kp E      &kp I     &none
-&none  &kp Q  &kp X  &kp M     &kp C  &kp B        &kp K      &kp P  &kp PERIOD  &kp MINUS  &kp FSLH  &none
-                     &kp LGUI  &mo 1  &kp SPACE    &kp RET    &mo 2  &kp RALT
-            >;
-        };
-
-        symbol_layer {
-            // -----------------------------------------------------------------------------------------
-            // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BSPC |
-            // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-            // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
-
-            bindings = <
-&none  &kp EXCLAMATION  &kp AT_SIGN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE     &kp AMPS         &kp KP_NUMBER_7  &kp KP_N8        &kp KP_NUMBER_9  &kp ASTERISK  &none
-&none  &kp HASH         &kp DOLLAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE    &kp EQUAL        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS      &none
-&none  &kp PERCENT      &kp LCTRL    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE    &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_1  &kp SLASH     &none
-                                     &kp LGUI              &trans                 &kp SPACE    &kp RET          &trans           &kp RALT
-            >;
-        };
-
-        navigation {
-            bindings = <
-&none  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans  &trans     &none
-&none  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none
-&none  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans  &trans     &none
-                       &trans  &trans  &trans    &trans  &trans    &trans
+&none  &kp B  &kp L  &kp D     &kp W      &kp Z             &kp COMMA  &kp F          &kp O       &kp U      &kp J     &none
+&none  &kp N  &kp R  &kp T     &kp S      &kp G             &kp Y      &kp H          &kp A       &kp E      &kp I     &none
+&none  &kp Q  &kp X  &kp M     &kp C      &kp B             &kp K      &kp P          &kp PERIOD  &kp MINUS  &kp FSLH  &none
+                     &kp LGUI  &kp SPACE  &kp LEFT_SHIFT    &kp RET    &kp BACKSPACE  &kp DELETE
             >;
         };
     };
