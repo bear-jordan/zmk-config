@@ -18,7 +18,6 @@
         compatible = "zmk,keymap";
 
         strdy {
-
             bindings = <
 &none  &kp V       &kp M       &kp L         &kp C        &kp P        &kp X        &kp F            &kp O         &kp U          &kp J       &none
 &none  &mt LGUI S  &mt LALT T  &mt LCTRL R   &mt LSHFT D  &kp Y        &kp PERIOD   &mt RSHIFT N     &mt RCTRL A   &mt RALT E     &mt RGUI I  &none
@@ -29,10 +28,10 @@
 
         symbol {
             bindings = <
-&none  &none  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &none           &kp EQUAL     &kp GRAVE              &kp COLON        &kp SEMICOLON      &kp PLUS        &trans
-&none  &none  &kp DOLLAR       &kp PERCENT  &kp CARET  &kp ASTERISK    &kp ASTERISK  &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp MINUS       &trans
-&none  &none  &none            &none        &none      &none           &kp TILDE     &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp UNDERSCORE  &trans
-                               &trans       &trans     &trans          &trans        &trans                 &trans
+&none  &none           &kp EXCLAMATION  &kp AT_SIGN   &kp HASH   &none           &kp EQUAL     &kp GRAVE              &kp COLON        &kp SEMICOLON      &kp PLUS        &trans
+&none  &none           &kp DOLLAR       &kp PERCENT   &kp CARET  &kp ASTERISK    &kp ASTERISK  &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp MINUS       &trans
+&none  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT  &none           &kp TILDE     &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp UNDERSCORE  &trans
+                                        &trans        &trans     &trans          &trans        &trans                 &trans
             >;
         };
 
